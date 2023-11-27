@@ -5,8 +5,6 @@ on:
     branches:
       - main
       - 'feature/**'
-  schedule:
-    - cron: "*/2 * * * *"
 jobs:
   docker-unit-tests:
     runs-on: ubuntu-latest
