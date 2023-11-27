@@ -2,7 +2,7 @@ from ..services.string_service import to_uppercase
 
 
 def test_uppercase_with_lowercased_str():
-    assert to_uppercase("hello r2-d2") == "HELLO R2-De2"
+    assert to_uppercase("hello r2-d2") == "HELLO R2-D2"
 
 
 def test_uppercase_with_uppercased_str():
