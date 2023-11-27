@@ -1,6 +1,11 @@
 name: Commit workflow
 run-name: Executing every commit required actions (tests, static analysis...) 🚀
-on: [push]
+on:
+  push:
+    branches:
+      - *
+  schedule:
+    - cron: "*/2 * * * *"
 jobs:
   docker-unit-tests:
     runs-on: ubuntu-latest
