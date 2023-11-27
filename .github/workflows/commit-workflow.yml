@@ -3,7 +3,7 @@ run-name: Executing every commit required actions (tests, static analysis...) ðŸ
 on:
   push:
     branches:
-      - *
+      - '*'
   schedule:
     - cron: "*/2 * * * *"
 jobs:
