@@ -7,4 +7,4 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Run tests with docker-compose
-        run: docker-compose up --build tests
+        run: docker-compose up --build --exit-code-from=tests tests
