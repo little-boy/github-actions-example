@@ -2,7 +2,6 @@ def to_uppercase(value: str) -> str:
     if not value:
         return (
             value
-            + "totoo dsfklsdfj klsdjf klsdjfsdlkjf slkdfj slkdfj slk"
         )
 
     if not isinstance(value, str):
